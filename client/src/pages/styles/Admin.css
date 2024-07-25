@@ -1,0 +1,12 @@
+body{
+  height:100vh;
+}
+
+.admin{
+ 
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height:100vh;
+  
+  
+}

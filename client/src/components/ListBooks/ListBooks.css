@@ -1,0 +1,46 @@
+.book{
+    display:flex;
+    flex-direction: column;
+}
+.table{
+    margin-top:40px;
+  }
+  thead{
+    background-color: #E0E0E0;
+  }
+  tbody{
+    background-color: #fafafa;
+  }
+  thead tr td{
+      padding:10px 0px;
+      font-weight:bolder;
+  }
+  tbody tr td{
+      padding:10px 0px;
+  }
+  thead tr td , tbody tr td{
+    padding-left:10px;
+    padding-right:70px;
+    font-size:14px;
+  }
+  tbody tr:hover{
+      background-color: rgb(205, 201, 201);
+  }
+  table tr a {
+      display:contents;
+      color: inherit;
+  }
+
+
+  /* .controls {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .controls input,
+  .controls select {
+    margin-left: 10px;
+    padding: 5px;
+  } */
+  
